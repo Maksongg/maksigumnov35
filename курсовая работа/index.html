@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курсы по программированию и дизайну</title>
+    <link rel="stylesheet" href="style.css">
+    <script language = "JavaScript">
+        var bigsize = "300"; //Размер большой картинки
+        var smallsize = "150"; //Размер маленькой картинки
+        function changeSizeImage(im) {
+          if(im.height == bigsize) im.height = smallsize;
+          else im.height = bigsize;
+        }
+        </script>
+</head>
+<body>
+ <header>
+
+    <div class="logo">
+        <img src="C:\Users\BAZA PC\Desktop\курсовая работа\лого.PNG" alt="">
+    </div>
+  
+        <ul>
+            <li><a href="index.html">О НАС</a></li>
+            <li><a>|</a></li>
+            <li><a href="courses.html">ОБРАЗОВАТЕЛЬНЫЕ КУРСЫ И ПРЕПОДАВАТЕЛИ</a></li>
+            <li><a>|</a></li>
+            <li><a href="contacts.html">ОБРАТНАЯ СВЯЗЬ</a></li>
+        </ul>
+
+    </header>
+    
+    <div class="prewiew">
+      <h1>Чем занимается наша компания?</h1>
+      <h2>Здравствуйте, наша компания занимается обучением программированию и дизайну для детей в возврасте от 7 до 16 лет.</h2>
+    </div>
+
+    <div>
+        <h1 class="nauchim">Что вы научитесь делать на наших курсах?</h1>
+        <li class="spm">Использовать основные языковые конструкции: условия, циклы, функции и другие</li>
+        <li class="spm">Разделять код на модули для повторного использования и отсутствия конфликта имён</li>
+        <li class="spm">Понимать ключевые концепции для написания хорошего кода, такие как чистота и детерминированность</li>
+        <li class="spm">Изготавливать сайты для различных компаний, используя html, css, JavaScript </li>
+        <li class="spm">Научитесь правильно пользоваться программами для дизайнеров</li>
+    </div>
+    
+    <div>
+        <h1 class="rabota" >С какими именно профессиями вы познакомитесь?</h1>
+            <li class="spisok">Фронтенд-разработчик</li>
+            <li class="spisok">Java-разработчик</li>
+            <li class="spisok">Вэб-дизайнер</li>
+    </div>
+
+    <table>
+        <tr>
+          <td>
+            <img src="1 picture.jpg" height="150" onclick="changeSizeImage(this)" />
+            <br />
+            <b>Группы для детей 9-10 лет</b>
+          </td>
+          <td>
+            <img src="1.jpg" height="150" onclick="changeSizeImage(this)" />
+            <br />
+            <b>Группы для детей 8-9 лет</b>
+            <td>
+              <img src="2.jpg" height="150" onclick="changeSizeImage(this)" />
+              <br />
+              <b>Группы для детей 11-13 лет</b>
+              <td>
+                <img src="3.jpg" height="150" onclick="changeSizeImage(this)" />
+                <br />
+                <b>Группы для детей 13-16 лет</b>
+          </td>
+        </tr>
+      </table>
+      
+      
+      <footer>
+        <ul>
+            <li><a href="index.html">О НАС</a></li>
+            <li><a href="courses.html">ОБРАЗОВАТЕЛЬНЫЕ КУРСЫ И ПРЕПОДАВАТЕЛИ</a></li>
+            <li><a href="contacts.html">ОБРАТНАЯ СВЯЗЬ</a></li>
+        </ul>
+        <h1> Наши контакты: +7-931-517-86-50; Эл. почта:prog@mail.com
+      </footer>
+</body>
+      

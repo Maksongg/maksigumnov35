@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курсы по программированию и дизайну</title>
+    <link rel="stylesheet" href="style.css">
+    <script language = "JavaScript">
+        var bigsize = "500"; //Размер большой картинки
+        var smallsize = "400"; //Размер маленькой картинки
+        function changeSizeImage(im) {
+          if(im.height == bigsize) im.height = smallsize;
+          else im.height = bigsize;
+        }
+        </script>
+</head>
+<body>
+    <div class="logo">
+        <img src="C:\Users\BAZA PC\Desktop\курсовая работа\лого.PNG" alt="">
+    </div>
+    
+    <header>
+        <ul>
+            <li><a href="index.html">О НАС</a></li>
+            <li><a>|</a></li>
+            <li><a href="courses.html">ОБРАЗОВАТЕЛЬНЫЕ КУРСЫ И ПРЕПОДАВАТЕЛИ</a></li>
+            <li><a>|</a></li>
+            <li><a href="contacts.html">ОБРАТНАЯ СВЯЗЬ</a></li>
+        </ul>
+    </header>
+    
+    <section>
+
+   <h1 class="title2">ОБРАЗОВАТЕЛЬНЫЕ КУРСЫ И ПРЕПОДАВАТЕЛИ</h1>
+
+
+            <table>
+                <tr>
+                  <td>
+                    <img src="Nik.jpg" height="400" onclick="changeSizeImage(this)" />
+                    <br />
+                    <b>Смирнов Никита Иванович-преподаватель по HTML, CSS, JavaScript;</b>
+                  </td>
+                  <td>
+                        <img src="Krendele.jpg" height="400" onclick="changeSizeImage(this)" />
+                        <br />
+                        <b>Медведев Антон Сергеевич-преподаватель по дизайну</b>
+                      </td>
+                </tr>
+              </table>
+
+    <div class="toxwork">
+        <h1>Курс по графическому дизайну:</h1>
+        <h2>Включает в себя: 3 месяца изучения основ работы дизайнера(125 часов). Вы изучите основы дизайна, познакомитесь с основными понятиями, принципами и инструментами дизайнеров. Научитесь применять знания на практике — от подготовки макетов до многоэкранного мобильного приложения. Группы от 10-16 лет.</h2>
+        <h2 class="itogtox">Стоимость 15.000 рублей!</h2>   
+    </div>
+       
+    <div class="nekwork">
+        <h1>Курс по созданию сайтов:</h1>
+        <h2>Включает в себя: 5 месяцев изучения различных языков программирования для создания сайтов. На курсе мы изучим HTML, CSS , JavaScript, научимся создавать сайты-визитки для различных компаний.</h2>
+        <h2 class="itognik">Стоимость 20.000 рублей!</h2>
+    </div>
+</section>
+    
+<footer>
+    <ul>
+        <li><a href="index.html">О НАС</a></li>
+        <li><a href="courses.html">ОБРАЗОВАТЕЛЬНЫЕ КУРСЫ И ПРЕПОДАВАТЕЛИ</a></li>
+        <li><a href="contacts.html">ОБРАТНАЯ СВЯЗЬ</a></li>
+    </ul>
+    <h1> Наши контакты: +7-931-517-86-50; Эл. почта:prog@mail.com
+  </footer>
+</body>
